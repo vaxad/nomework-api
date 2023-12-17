@@ -8,7 +8,7 @@ router.post("/", async (req, res) => {
     try {
     const data = req.body
     console.log(data)
-    const app = await client("https://siddhantuniyal-mumbaihacks-genai.hf.space/--replicas/wqcxd/");
+    const app = await client("https://siddhantuniyal-mumbaihacks-genai.hf.space/--replicas/dncnn");
     const result = await app.predict("/predict", [
         data.level, // string  in 'level' Textbox component		
         data.characters, // string  in 'number_of_words' Textbox component		
